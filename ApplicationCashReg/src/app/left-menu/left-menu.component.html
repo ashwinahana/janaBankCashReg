@@ -1,0 +1,20 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav" routerLinkActive="active">
+        <li class="nav-item active" [routerLinkActive]="['active']"> <a
+                class="nav-link button-custom button-custom-hover" [routerLink]="'/VendorRegistrationComponent'"><i
+                    class="fa fa-address-card"></i>Collections</a></li>
+        <li class="nav-item" [routerLinkActive]="['active']"> <a class="nav-link button-custom button-custom-hover"
+                [routerLink]="'/AddCustomerComponent'"><i class="fa fa-handshake-o" aria-hidden="true"></i>Payments</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']"> <a class="nav-link button-custom button-custom-hover"
+                [routerLink]="'/TrackTableComponent'"><i class="fa fa-file-text-o" aria-hidden="true"></i>Cash
+                Breakup</a></li>
+
+
+        <li class="nav-item" [routerLinkActive]="['active']"> <a class="nav-link button-custom button-custom-hover"
+                [routerLink]="'/AdminApprovalComponent'"><i class="fa fa-cogs" aria-hidden="true"></i>Tender Change</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']"> <a class="nav-link button-custom button-custom-hover"
+                [routerLink]="'/WrokProgressComponent'">Reports</a></li>
+    </ul>
+</nav>

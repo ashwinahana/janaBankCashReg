@@ -1,0 +1,22 @@
+.logo {
+    height: 55px;
+    margin: 12px 0;
+}
+h2.title {
+    color: #d9117c;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.users .fa {
+    margin-right: 10px;
+}
+.dropdown {
+    display: inline-block;
+}
+.users {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: right;
+}

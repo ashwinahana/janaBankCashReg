@@ -1,1 +1,134 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #e3ddd2;
+    padding: 0;
+    margin: 0;
+    font-family: Source Sans Pro, sans-serif, helvetica, arial, clean;
+    font-size: 18px;
+}
+.navbar{
+    padding: 0;
+}
+.left-nav-bar {
+    background-color: #a5bacc;
+    border-right: 1px solid #fdb913;
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 95px;
+    bottom: 15px;
+    width: 285px;
+  }
+  .left-nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .left-nav-bar ul li {
+    border-bottom: 1px solid #fdb913;
+    width: 100%;
+  }
+  .left-nav-bar ul li a {
+    padding: 15px;
+    color: #fff;
+    font-size: 90%;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  .button-custom {
+    /* background: #ff3700; */
+    background-color: transparent;
+    background-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    border-color: #fff;
+    color: #fff;
+    width: 220px;
+  }
+  .button-custom:before {
+    bottom: 0;
+    content: "";
+    display: block;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: left 0.25s ease-in-out, right 0.25s ease-in-out,
+      width 0.25s ease-in-out;
+    transition: left 0.25s ease-in-out, right 0.25s ease-in-out,
+      width 0.25s ease-in-out;
+    width: 0;
+    z-index: -1;
+  }
+  .button-custom:hover:before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+  .button-custom-hover {
+    border-color: #fff;
+    color: #fff;
+  }
+  .button-custom-hover:before {
+    background-color: #fdb913;
+    color: #fff;
+  }
+  .button-custom-hover:active {
+    border-color: #fdb913;
+  }
+  .button-custom-hover:active:before,
+  .button-custom-hover.active {
+    background-color: #fdb913;
+    color: #fff;
+  }
+  .button-custom-hover:hover {
+    -webkit-animation: button-custom-event-text-color-change 0.6s ease-in-out;
+    animation: button-custom-event-text-color-change 0.6s ease-in-out;
+    color: #fff;
+  }
+  .button-custom-hover:hover {
+    -webkit-animation: button-custom-event-text-color-change 0.6s ease-in-out;
+    animation: button-custom-event-text-color-change 0.6s ease-in-out;
+    color: #fff;
+  }
+  @-webkit-keyframes button-custom-event-text-color-change {
+    0% {
+      color: #fff;
+    }
+    to {
+      color: #d9117c;
+    }
+  }
+  @keyframes button-custom-event-text-color-change {
+    0% {
+      color: #fff;
+    }
+    to {
+      color: #d9117c;
+    }
+  }
+  .left-nav-bar ul li a span {
+    float: right;
+  }
+  .left-nav-bar ul li a span {
+    float: right;
+}
+.fa {
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 25px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
